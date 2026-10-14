@@ -15,7 +15,7 @@ pipeline {
                 git branch: 'main',
                     url: 'https://github.com/fw17896/Hello.git'
 
-                sh 'javac Hello.java'
+                sh 'javac HelloWorld.java'
 
                 sh 'java HelloWorld'
 
