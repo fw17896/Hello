@@ -1,8 +1,9 @@
-public class Main {
+public class HelloWorld {
+
     public static void main(String[] args) {
-        System.out.println("Hello from Jenkins!");
-        System.out.println("Hook.");   
-        
-        
+
+        System.out.println("Hello World!");
+
+        System.out.println("Java application executed through Jenkins and Docker.");
     }
 }
