@@ -4,6 +4,6 @@ public class HelloWorld {
 
         System.out.println("Hello World!");
 
-        System.out.println("Java application executed through Jenkins and Docker.");
+        System.out.println("Java application executed through Jenkins and Docker. ");
     }
 }
