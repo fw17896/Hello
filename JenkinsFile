@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY.git'
+                    url: 'https://github.com/fe17896/Hello.git'
 
                 sh 'docker compose down'
                 sh 'docker compose up -d'
