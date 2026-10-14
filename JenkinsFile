@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY.git'
+
+                sh 'docker compose down'
+                sh 'docker compose up -d'
+            }
+        }
+    }
+}
