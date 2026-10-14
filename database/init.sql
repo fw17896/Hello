@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS students (
 );
 
 INSERT INTO students (name, roll_number)
-VALUES ('Student', 'YOUR_ROLL_NUMBER');
+VALUES ('Student', '009');
